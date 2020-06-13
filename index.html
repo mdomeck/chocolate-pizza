@@ -7,60 +7,74 @@
   <title>Document</title>
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <header>
-    <img src="images/logo.png" alt="logo">
-    <h2>Delicious</h2>
-    <p>THE BEST FOOD BLOG ON THE WEB.</p>
-    <ul id="first-links">
-      <li><img src="images/fb-icon.png" alt="facebook"></li>
-      <li><img src="images/twit-icon.png" alt="twitter"></li>
-      <li><img src="images/gp-icon.png" alt="Google"></li>
-      <li><img src="images/insta-icon.png" alt="Instagram"></li>
-      <li><img src="images/flic-icon.png" alt="Flicker"></li>
-      <li><img src="images/pint-icon.png" alt="Pintrest"></li>
-    </ul id='second-links'>
-    <li><img src="images/rss-icon.png" alt="Unknown"></li>
-    <li><img src="images/mail-icon.png" alt="You Got Mail!"></li>
-    </ul>
+    <section>
+
+      <img class= "fork" src="images/logo.png" alt="logo">
+      
+        <div>
+          <p class="delicious">Delicious</p>
+          <p class="tagline">THE BEST FOOD BLOG ON THE WEB.</p>
+          <nav>
+            
+            <img src="images/fb-icon.png" alt="facebook">
+            <img src="images/twit-icon.png" alt="twitter">
+            <img src="images/gp-icon.png" alt="Google">
+            <img src="images/insta-icon.png" alt="Instagram">
+            <img src="images/flic-icon.png" alt="Flicker">
+            <img src="images/pint-icon.png" alt="Pintrest">
+            <img src="images/rss-icon.png" alt="Unknown">
+            <img src="images/mail-icon.png" alt="You Got Mail!">
+            
+          </nav>
+        </div>
+      </section>
   </header>
   <main>
     <h2>Chocolate Pizza</h2>
     <ul>
-      <li>POSTED ON 15 DEC 2013 / DESSERTS</li>
-      <li><img src="images/print-icon.png" alt="print"></li>
-      <li>PRINT</li>
+      <li id="posted">POSTED ON 15 DEC 2013 / DESSERTS</li>
+      <li class = "print"><img src="images/print-icon.png" alt="print"></li>
+      <li class="print">PRINT</li>
     </ul>
-    <img src="images/choco-pizza.png" alt="Chocolate Pizza">
-    <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stil to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
-    <p>Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yoks. Set mixture in the fridge and wait until the fig mixture is cooled.</p>
-    <p>Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving.</p>
-    <div>
-      <ul>
-        <li>1 1/2 cups milk</li>
-        <li>1/2 cup mascarpone</li>
-        <li>1/2 tsp pink salt</li>
-        <li>1 lb Black Mission Figs</li>
-        <li>1/2 cup brown sugar</li>
-        <li>2-4 tbsp water</li>
+    <img id= "pizzapic" src="images/choco-pizza.png" alt="Chocolate Pizza">
+    <p class="paragragh">For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stil to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
+    <p class="paragragh">Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yoks. Set mixture in the fridge and wait until the fig mixture is cooled.</p>
+    <p class="paragragh"> Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving.</p>
+    <div id = "recipe">
+      <div  id="left">
+        <ul>
+        <li><input type="checkbox">1 1/2 cups milk</li>
+        <li><input type="checkbox">1/2 cup mascarpone</li>
+        <li><input type="checkbox">1/2 tsp pink salt</li>
+        <li><input type="checkbox">1 lb Black Mission Figs</li>
+        <li><input type="checkbox">1/2 cup brown sugar</li>
+        <li><input type="checkbox">2-4 tbsp water</li>
+     </ul>
+     </div>
+      <div id ="right">
+      <ul >
+        <li><input type="checkbox"> 1/2 cups heavy cream</li>
+        <li><input type="checkbox" checked="true"> <strike>1/3 granulated sugar</strike></li>
+        <li><input type="checkbox" checked="true"> <strike>2 egg yolks</strike></li>
+        <li><input type="checkbox">1 lemon, juiced</li>
+        <li><input type="checkbox">2 tbsp butter</li>
+        <li><input type="checkbox">1 cup honey roasted pecans, roughly chopped</li>
       </ul>
-      <ul>
-        <li>1 1/2 cups heavy cream</li>
-        <li><strike>1/3 granulated sugar</strike></li>
-        <li><strike>2 egg yolks</strike></li>
-        <li>1 lemon, juiced</li>
-        <li>2 tbsp butter</li>
-        <li>1 cup honey roasted pecans, roughly chopped</li>
-      </ul>
+      </div>
     </div>
     <section>
       <img src="images/van-pic.png" alt="Vanna">
       <h3>Vanessa Stevenson</h3>
       <p>Food enthusiast, photography fan.Add a pinch of raw foodism and that's pretty much who I am.</p>
       <div>
-        <p>SHARE RECIPE</p>
+        <button>SHARE RECIPE</button>
       </div>
     </section>
   </main>
