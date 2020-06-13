@@ -41,9 +41,33 @@ h2 {
   color: gray;
   font-size: 13px;
 }
-/* header {
-  background-color: saddlebrown;
-  display: inline-block;
-  text-align: center;
-  border: black 15px;
-} */
+#pizzapic{
+  margin-top: 20px ;
+  margin-bottom: 20px;
+}
+.paragragh{
+  margin-top: 20px ;
+  margin-bottom: 20px;
+}
+#recipe{
+  width: 899px;
+  height: 305px;
+  font-family: 'Work Sans', sans-serif;
+  background: url(images/list-bg.png);
+  font-weight: bold;
+  font-size: 24px;
+  
+}
+#right{
+  display:inline;
+  float: left;
+  width: 200px;
+  margin-left: 120px;
+  
+}
+#left{
+  display:inline;
+  float: left;
+  width: 200px;
+  margin-left: 75px;
+}
