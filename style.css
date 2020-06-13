@@ -3,8 +3,8 @@ body{
   background-color: rgb(250, 250, 250);
   padding-left: 100px;
   padding-right: 100px;
-  display: inline; 
-  max-width: 960px;
+  display: inline-block; 
+  width: 960px;
 }
 
 .fork{
@@ -20,8 +20,26 @@ body{
   color: gray;
 }
 
-nav {
+section > div > nav {
+  text-align: right;
+  /* float: right; */
+  width: 960px;
+
+}
+h2 {
+  font-family: 'Archiveo Black';
+  font-size: 40px;
+  font-weight: bold;
+}
+#posted {
+  color: gray;
+  font-size: 13px;
+}
+.print {
+  display: inline;
   float: right;
+  color: gray;
+  font-size: 13px;
 }
 /* header {
   background-color: saddlebrown;
